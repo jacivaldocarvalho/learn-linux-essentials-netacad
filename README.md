@@ -4,7 +4,7 @@
 [![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-F7941D?logo=linux&logoColor=white)](https://www.lpi.org/our-certifications/linux-essentials-overview/)
 ![Linux](https://img.shields.io/badge/Linux-Study%20Notes-FCC624?logo=linux&logoColor=black)
 ![Language](https://img.shields.io/badge/Language-English-blue)
-![Modules](https://img.shields.io/badge/Modules-4%20Completed-success)
+![Modules](https://img.shields.io/badge/Modules-5%20Completed-success)
 
 Study notes, exercises, commands, and labs from the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
@@ -39,26 +39,12 @@ jc-linux-essentials-netacad/
 ├── modules/
 │   └── 01-introduction-to-linux/
 │       └── README.md
-├── labs/
-├── cheatsheets/
-└── exam-notes/
 ```
 
 ### `modules/`
 
 Notes and summaries organized according to the course modules.
 
-### `labs/`
-
-Hands-on exercises, experiments, and labs performed throughout the course.
-
-### `cheatsheets/`
-
-Quick-reference material for Linux commands, options, and concepts.
-
-### `exam-notes/`
-
-Review notes focused on topics relevant to the **LPI Linux Essentials** certification.
 
 ## Modules
 
@@ -66,8 +52,22 @@ Review notes focused on topics relevant to the **LPI Linux Essentials** certific
 | --- | --- | --- |
 | 01 | [Introduction to Linux](modules/01-introduction-to-linux/README.md) | Completed |
 | 02 | [Operating Systems](modules/02-operating-systems/README.md) | Completed |
-| 03 | [Operating Systems](modules/03-working-in-linux/README.md) | Completed |
-| 04 | [Operating Systems](modules/04-open-source-software-and-licensing/README.md) | Completed |
+| 03 | [Working in Linux](modules/03-working-in-linux/README.md) | Completed |
+| 04 | [Open Source Software and Licensing](modules/04-open-source-software-and-licensing/README.md) | Completed |
+| 05 | [Command Line Skills](modules/05-command-line-skills/README.md) | Completed |
+
+### Module 5 — Command Line Skills
+
+- Basic shell and Bash
+- Command syntax, options, and arguments
+- Command history
+- Shell and environment variables
+- `PATH`
+- Command types, aliases, and functions
+- Quoting, escaping, and command substitution
+- Control statements (`;`, `&&`, `||`)
+
+[Study Notes](modules/05-command-line-skills/README.md) · [Lab Notes](modules/05-command-line-skills/LAB.md)
 
 This table will be updated as I progress through the course.
 
