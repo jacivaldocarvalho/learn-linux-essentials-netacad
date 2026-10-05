@@ -61,6 +61,7 @@ Review notes focused on topics relevant to the **LPI Linux Essentials** certific
 | 01 | [Introduction to Linux](modules/01-introduction-to-linux/README.md) | Completed |
 | 02 | [Operating Systems](modules/02-operating-systems/README.md) | Completed |
 | 03 | [Operating Systems](modules/03-working-in-linux/README.md) | Completed |
+| 04 | [Operating Systems](modules/04-open-source-software-and-licensing/README.md) | Completed |
 
 This table will be updated as I progress through the course.
 
