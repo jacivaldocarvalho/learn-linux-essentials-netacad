@@ -1,5 +1,11 @@
 # Linux Essentials — Cisco Networking Academy
 
+[![Cisco Networking Academy](https://img.shields.io/badge/Cisco-Networking%20Academy-1BA0D7?logo=cisco&logoColor=white)](https://www.netacad.com/)
+[![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-F7941D?logo=linux&logoColor=white)](https://www.lpi.org/our-certifications/linux-essentials-overview/)
+![Linux](https://img.shields.io/badge/Linux-Study%20Notes-FCC624?logo=linux&logoColor=black)
+![Language](https://img.shields.io/badge/Language-English-blue)
+![Modules](https://img.shields.io/badge/Modules-4%20Completed-success)
+
 Study notes, exercises, commands, and labs from the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
 This repository is intended to document my Linux learning journey and serve as a reference for reviewing the fundamental concepts covered by the course and the **Linux Professional Institute (LPI) Linux Essentials** certification.
