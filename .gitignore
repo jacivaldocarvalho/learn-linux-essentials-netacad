@@ -1,0 +1,23 @@
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Local environment files
+.env
+.env.*
+
+# IDE / Editor settings
+.vscode/
+.idea/
