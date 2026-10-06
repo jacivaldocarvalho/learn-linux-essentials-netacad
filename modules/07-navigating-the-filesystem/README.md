@@ -1,6 +1,6 @@
 # Module 7 — Navigating the Filesystem
 
-Study notes for Chapter 7 of the Cisco Networking Academy / NDG Linux Essentials course.
+Study notes for Chapter -7 of the Cisco Networking Academy / NDG Linux Essentials course.
 
 ## Exam Objective
 
