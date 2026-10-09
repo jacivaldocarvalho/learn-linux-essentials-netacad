@@ -4,7 +4,8 @@
 [![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-F7941D?logo=linux&logoColor=white)](https://www.lpi.org/our-certifications/linux-essentials-overview/)
 ![Linux](https://img.shields.io/badge/Linux-Study%20Notes-FCC624?logo=linux&logoColor=black)
 ![Language](https://img.shields.io/badge/Language-English-blue)
-![Modules](https://img.shields.io/badge/Modules-5%20Completed-success)
+![Modules](https://img.shields.io/badge/Modules-9%20Completed-success)
+![Midterm Exam](https://img.shields.io/badge/Midterm%20Exam-Completed-success)
 
 Study notes, exercises, commands, and labs from the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
@@ -37,24 +38,67 @@ The course also helps prepare for the **LPI Linux Essentials Certificate**.
 jc-linux-essentials-netacad/
 ├── README.md
 ├── modules/
-│   └── 01-introduction-to-linux/
+│   ├── 01-introduction-to-linux/
+│   │   └── README.md
+│   ├── 02-operating-systems/
+│   │   └── README.md
+│   ├── 03-working-in-linux/
+│   │   └── README.md
+│   ├── 04-open-source-software-and-licensing/
+│   │   └── README.md
+│   ├── 05-command-line-skills/
+│   │   ├── README.md
+│   │   └── LAB.md
+│   ├── 06-getting-help/
+│   │   └── README.md
+│   ├── 07-navigating-the-filesystem/
+│   │   └── README.md
+│   ├── 08-managing-files-and-directories/
+│   │   └── README.md
+│   └── 09-archiving-and-compression/
 │       └── README.md
+└── exams/
+    └── midterm-modules-01-09/
+        └── README.md
 ```
 
 ### `modules/`
 
-Notes and summaries organized according to the course modules.
+Study notes and summaries organized according to the course modules.
 
+Each module contains original documentation covering its key concepts, commands, examples, and exam-relevant topics.
+
+Some modules also include separate lab notes.
+
+### `exams/`
+
+Exam reviews organized by assessment.
+
+These documents include question reviews, correct answers, technical explanations, and quick-reference material.
+
+## Course Progress
+
+**Current progress:** Modules 1–9 completed, including the Midterm Exam.
+
+| Milestone | Status |
+|---|---|
+| Modules 1–9 | Completed |
+| Midterm Exam (Modules 1–9) | Completed |
+| Remaining course modules | Not yet documented |
 
 ## Modules
 
 | Module | Topic | Status |
-| --- | --- | --- |
+|---|---|---|
 | 01 | [Introduction to Linux](modules/01-introduction-to-linux/README.md) | Completed |
 | 02 | [Operating Systems](modules/02-operating-systems/README.md) | Completed |
 | 03 | [Working in Linux](modules/03-working-in-linux/README.md) | Completed |
 | 04 | [Open Source Software and Licensing](modules/04-open-source-software-and-licensing/README.md) | Completed |
 | 05 | [Command Line Skills](modules/05-command-line-skills/README.md) | Completed |
+| 06 | [Getting Help](modules/06-getting-help/README.md) | Completed |
+| 07 | [Navigating the Filesystem](modules/07-navigating-the-filesystem/README.md) | Completed |
+| 08 | [Managing Files and Directories](modules/08-managing-files-and-directories/README.md) | Completed |
+| 09 | [Archiving and Compression](modules/09-archiving-and-compression/README.md) | Completed |
 
 ### Module 5 — Command Line Skills
 
@@ -69,7 +113,78 @@ Notes and summaries organized according to the course modules.
 
 [Study Notes](modules/05-command-line-skills/README.md) · [Lab Notes](modules/05-command-line-skills/LAB.md)
 
-This table will be updated as I progress through the course.
+### Module 6 — Getting Help
+
+- Linux documentation resources
+- Manual pages and manual sections
+- `man` and `info`
+- `whatis` and `apropos`
+- `--help` command options
+- `locate` and `whereis`
+- Documentation in `/usr/share/doc`
+
+[Study Notes](modules/06-getting-help/README.md)
+
+### Module 7 — Navigating the Filesystem
+
+- Linux filesystem hierarchy
+- Absolute and relative paths
+- Current and parent directories
+- Home directory shortcuts
+- `pwd`, `cd`, and `ls`
+- Hidden files and directories
+- Directory listing options
+
+[Study Notes](modules/07-navigating-the-filesystem/README.md)
+
+### Module 8 — Managing Files and Directories
+
+- Case-sensitive filenames
+- Filename globbing (`*`, `?`, `[ ]`)
+- Copying files and directories with `cp`
+- Moving and renaming files with `mv`
+- Creating files with `touch`
+- Removing files with `rm`
+- Creating directories with `mkdir`
+- Removing empty directories with `rmdir`
+
+[Study Notes](modules/08-managing-files-and-directories/README.md)
+
+### Module 9 — Archiving and Compression
+
+- Archiving versus compression
+- Lossless and lossy compression
+- `gzip`, `bzip2`, and `xz`
+- TAR archive creation, listing, and extraction
+- gzip and bzip2 compression with `tar`
+- ZIP archive creation and extraction
+- Recursive archiving and selective extraction
+
+[Study Notes](modules/09-archiving-and-compression/README.md)
+
+## Exams
+
+| Assessment | Coverage | Status |
+|---|---|---|
+| [Midterm Exam](exams/midterm-modules-01-09/README.md) | Modules 1–9 | Completed |
+
+### Midterm Exam — Modules 1–9
+
+Review of 40 questions covering:
+
+- Linux distributions and operating systems
+- Software management and release cycles
+- Open source software and licensing
+- Shells, CLI, and environment variables
+- Linux documentation and help commands
+- Filesystem navigation
+- File and directory management
+- Globbing
+- Archiving and compression
+
+The exam review includes correct answers, technical explanations, command examples, and a final review checklist.
+
+[Midterm Exam Review](exams/midterm-modules-01-09/README.md)
 
 ## References
 
