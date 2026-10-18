@@ -4,33 +4,29 @@
 [![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-F7941D?logo=linux&logoColor=white)](https://www.lpi.org/our-certifications/linux-essentials-overview/)
 ![Linux](https://img.shields.io/badge/Linux-Study%20Notes-FCC624?logo=linux&logoColor=black)
 ![Language](https://img.shields.io/badge/Language-English-blue)
-![Modules](https://img.shields.io/badge/Modules-9%20Completed-success)
+![Modules](https://img.shields.io/badge/Modules-11%20Completed-success)
 ![Midterm Exam](https://img.shields.io/badge/Midterm%20Exam-Completed-success)
 
-Study notes, exercises, commands, and labs from the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
+Study notes, exercises, commands, and practical examples from my learning journey through the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
-This repository is intended to document my Linux learning journey and serve as a reference for reviewing the fundamental concepts covered by the course and the **Linux Professional Institute (LPI) Linux Essentials** certification.
+This repository serves as a personal reference for Linux fundamentals and for reviewing topics relevant to the **Linux Professional Institute (LPI) Linux Essentials** certification.
 
 ## About the Course
 
-Linux Essentials provides foundational knowledge of the Linux operating system and hands-on experience with the command line and virtual machines.
+Linux Essentials introduces the Linux operating system and practical command-line skills. Topics include:
 
-The course covers topics such as:
+- Linux fundamentals, operating systems, and distributions
+- Open source software and licensing
+- Command Line Interface (CLI) and shell fundamentals
+- Filesystem navigation and file management
+- Linux documentation and help utilities
+- Archiving and compression
+- Text processing, pipelines, and I/O redirection
+- Regular expressions and text filtering
+- Shell scripting, variables, conditionals, and loops
+- File permissions, users, groups, processes, networking, and security concepts
 
-- Linux fundamentals
-- Open Source software
-- Linux distributions
-- Command Line Interface (CLI)
-- Files and directories
-- Command-line tools
-- File permissions and ownership
-- Users and groups
-- Processes
-- Networking fundamentals
-- Basic security
-- Shell scripting and automation
-
-The course also helps prepare for the **LPI Linux Essentials Certificate**.
+The course also supports preparation for the **LPI Linux Essentials Certificate**.
 
 ## Repository Structure
 
@@ -55,8 +51,22 @@ jc-linux-essentials-netacad/
 │   │   └── README.md
 │   ├── 08-managing-files-and-directories/
 │   │   └── README.md
-│   └── 09-archiving-and-compression/
-│       └── README.md
+│   ├── 09-archiving-and-compression/
+│   │   └── README.md
+│   ├── 10-working-with-text/
+│   │   └── README.md
+│   └── 11-basic-scripting/
+│       ├── README.md
+│       └── code/
+│           ├── 01-hello-world.sh
+│           ├── 02-variables.sh
+│           ├── 03-user-input.sh
+│           ├── 04-arguments.sh
+│           ├── 05-exit-status.sh
+│           ├── 06-conditionals.sh
+│           ├── 07-case.sh
+│           ├── 08-for-loops.sh
+│           └── 09-while-loop.sh
 └── exams/
     └── midterm-modules-01-09/
         └── README.md
@@ -64,26 +74,26 @@ jc-linux-essentials-netacad/
 
 ### `modules/`
 
-Study notes and summaries organized according to the course modules.
+Original study notes organized by course module. Each module documents important concepts, commands, examples, and exam-relevant details. Some modules include additional lab notes or executable examples.
 
-Each module contains original documentation covering its key concepts, commands, examples, and exam-relevant topics.
+### `modules/11-basic-scripting/code/`
 
-Some modules also include separate lab notes.
+Standalone Bash scripts illustrating concepts from Module 11. Each example can be inspected, modified, and run independently. See the [Module 11 README](modules/11-basic-scripting/README.md) for explanations.
 
 ### `exams/`
 
-Exam reviews organized by assessment.
-
-These documents include question reviews, correct answers, technical explanations, and quick-reference material.
+Assessment reviews containing answers, technical explanations, examples, and revision checklists.
 
 ## Course Progress
 
-**Current progress:** Modules 1–9 completed, including the Midterm Exam.
+**Current progress:** Modules **1–11 completed**, including the **Midterm Exam (Modules 1–9)**.
 
 | Milestone | Status |
 |---|---|
 | Modules 1–9 | Completed |
 | Midterm Exam (Modules 1–9) | Completed |
+| Module 10 — Working With Text | Completed |
+| Module 11 — Basic Scripting | Completed |
 | Remaining course modules | Not yet documented |
 
 ## Modules
@@ -99,6 +109,8 @@ These documents include question reviews, correct answers, technical explanation
 | 07 | [Navigating the Filesystem](modules/07-navigating-the-filesystem/README.md) | Completed |
 | 08 | [Managing Files and Directories](modules/08-managing-files-and-directories/README.md) | Completed |
 | 09 | [Archiving and Compression](modules/09-archiving-and-compression/README.md) | Completed |
+| 10 | [Working With Text](modules/10-working-with-text/README.md) | Completed |
+| 11 | [Basic Scripting](modules/11-basic-scripting/README.md) | Completed |
 
 ### Module 5 — Command Line Skills
 
@@ -109,7 +121,7 @@ These documents include question reviews, correct answers, technical explanation
 - `PATH`
 - Command types, aliases, and functions
 - Quoting, escaping, and command substitution
-- Control statements (`;`, `&&`, `||`)
+- Control operators (`;`, `&&`, `||`)
 
 [Study Notes](modules/05-command-line-skills/README.md) · [Lab Notes](modules/05-command-line-skills/LAB.md)
 
@@ -162,6 +174,57 @@ These documents include question reviews, correct answers, technical explanation
 
 [Study Notes](modules/09-archiving-and-compression/README.md)
 
+### Module 10 — Working With Text
+
+- Viewing file content with `cat`, `less`, `more`, `head`, and `tail`
+- Pipelines (`|`) and command chaining
+- Standard streams: STDIN, STDOUT, and STDERR
+- I/O redirection with `<`, `>`, `>>`, `2>`, and `&>`
+- Sorting text with `sort`, including fields and numeric keys
+- File statistics with `wc`
+- Extracting columns and character ranges with `cut`
+- Filtering text with `grep`
+- Basic and extended regular expressions, including `grep -E`
+
+**LPI objective:** 3.2 — Searching and Extracting Data from Files (weight: 3).
+
+[Study Notes](modules/10-working-with-text/README.md)
+
+### Module 11 — Basic Scripting
+
+- Shell scripts, execution methods, and the shebang (`#!`)
+- Script permissions and `chmod +x`
+- Text editors: `nano`, `vi`, and `vim`
+- Variables, expansion, and command substitution
+- Reading input with `read` and passing positional arguments
+- Exit codes, `$?`, and `exit`
+- Conditionals using `if`, `elif`, `else`, `test`, and `case`
+- File tests and numeric/string comparisons
+- `for` and `while` loops
+- Arithmetic expansion with `$(( ... ))`
+- Separate executable Bash examples in `code/`
+
+**LPI objective:** 3.3 — Turning Commands into a Script (weight: 4).
+
+[Study Notes](modules/11-basic-scripting/README.md) · [Bash Examples](modules/11-basic-scripting/code/)
+
+## Running the Module 11 Examples
+
+From the repository root:
+
+```bash
+cd modules/11-basic-scripting
+bash code/01-hello-world.sh
+bash code/02-variables.sh
+bash code/04-arguments.sh World
+bash code/06-conditionals.sh hello
+bash code/07-case.sh hi
+bash code/08-for-loops.sh
+bash code/09-while-loop.sh
+```
+
+The `03-user-input.sh` example requests interactive input. Review a script before running it, and use a suitable test environment when experimenting with changes.
+
 ## Exams
 
 | Assessment | Coverage | Status |
@@ -196,6 +259,6 @@ The exam review includes correct answers, technical explanations, command exampl
 
 ## Disclaimer
 
-This repository contains **personal study notes and original learning material** created while taking the course.
+This repository contains **personal study notes and original learning material** created while taking the course. Explanations, summaries, and practical examples are intended as independent study resources.
 
-Official course content belongs to its respective authors and copyright holders. This repository is not intended to reproduce or replace the official material provided by Cisco Networking Academy, NDG, or the Linux Professional Institute.
+Official course content belongs to its respective authors and copyright holders. This repository is **not affiliated with or endorsed by** Cisco Networking Academy, NDG, or the Linux Professional Institute, and is not intended to reproduce or replace their official materials.
