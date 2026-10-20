@@ -7,11 +7,26 @@
 ![Modules](https://img.shields.io/badge/Modules-18%20Completed-success)
 ![Assessments](https://img.shields.io/badge/Assessments-2%20Completed-success)
 ![Challenge Labs](https://img.shields.io/badge/Challenge%20Labs-4%20Completed-success)
-![Final Exam](https://img.shields.io/badge/Final%20Exam-Pending-orange)
+![Final Exam](https://img.shields.io/badge/Final%20Exam-Completed-success)
+![Credential](https://img.shields.io/badge/Cisco%20NetAcad-Verified-00BCEB)
 
 Study notes, exercises, commands, and practical examples from my learning journey through the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
 This repository serves as a personal reference for Linux fundamentals and for reviewing topics relevant to the **Linux Professional Institute (LPI) Linux Essentials** certification.
+
+## Verified Course Credential
+
+Completed the **Linux Essentials** course through **Cisco Networking Academy**, in collaboration with **Network Development Group (NDG)**, and received the official **Statement of Achievement** and **Cisco Networking Academy Verified badge**.
+
+**Issued:** October 20, 2026  
+**Credential:** Linux Essentials — Cisco Networking Academy / NDG  
+**Status:** Verified course completion
+
+| Verified Badge | Statement of Achievement |
+|---|---|
+| ![Cisco Networking Academy Verified Linux Essentials badge](assets/linux-essentials-verified-badge.png) | ![Cisco Networking Academy and NDG Linux Essentials Statement of Achievement](assets/linux-essentials-statement-of-achievement.png) |
+
+> This is a Cisco Networking Academy / NDG course completion credential, not a claim of passing the separate LPI Linux Essentials certification exam.
 
 ## About the Course
 
@@ -40,7 +55,9 @@ Linux Essentials introduces the Linux operating system and practical command-lin
 The course also supports preparation for the **LPI Linux Essentials Certificate**.
 
 ## Repository Structure
+
 ```text
+
 jc-linux-essentials-netacad/
 
 ├── README.md
@@ -150,25 +167,48 @@ jc-linux-essentials-netacad/
 │       └── README.md
 
 ├── exams/
+
 │   ├── midterm-modules-01-09/
+
 │   │   └── README.md
+
 │   └── midterm-modules-10-18/
+
 │       └── README.md
+
+├── assets/
+│   ├── linux-essentials-verified-badge.png
+│   └── linux-essentials-statement-of-achievement.png
 └── labs/
+
     ├── challenge-lab-a-user-management/
+
     │   ├── README.md
+
     │   └── setup.sh
+
     ├── challenge-lab-b-user-management-scripting/
+
     │   ├── README.md
+
     │   └── setup.sh
+
     ├── challenge-lab-c-archiving-and-backup/
+
     │   ├── README.md
+
     │   ├── backup-logs.sh
+
     │   └── screenshots/
+
     └── challenge-lab-d-pipes-redirection-and-regex/
+
         ├── README.md
+
         ├── extract-services.sh
+
         └── screenshots/
+
 ```
 
 ### `modules/`
@@ -177,7 +217,7 @@ Original study notes organized by course module. Each module documents important
 
 ## Course Progress
 
-**Current progress:** All **18 modules**, both **40-question assessments** (Modules 1–9 and Modules 10–18), and all **four challenge labs (A–D)** completed. The **80-question comprehensive final exam** is pending.
+**Current progress:** All **18 modules**, both **40-question assessments** (Modules 1–9 and Modules 10–18), and all **four challenge labs (A–D)** completed. The **comprehensive final exam (50 questions, 80 possible points)** is completed, and the **Cisco Networking Academy / NDG Linux Essentials credential** has been issued.
 
 | Milestone | Status |
 |---|---|
@@ -197,7 +237,8 @@ Original study notes organized by course module. Each module documents important
 | Challenge Lab B — User Management Scripting | Completed |
 | Challenge Lab C — Archiving and Backup | Completed |
 | Challenge Lab D — Pipes, Redirection and REGEX | Completed |
-| Comprehensive Final Exam (80 questions) | Pending |
+| Comprehensive Final Exam (50 questions; 80 possible points) | Completed |
+| Cisco Networking Academy / NDG Statement of Achievement | Issued — Oct 20, 2026 |
 
 ## Modules
 
@@ -485,6 +526,7 @@ Original study notes organized by course module. Each module documents important
 ## Running the Module 11 Examples
 
 From the repository root:
+
 ```bash
 
 cd modules/11-basic-scripting
@@ -502,6 +544,7 @@ bash code/07-case.sh hi
 bash code/08-for-loops.sh
 
 bash code/09-while-loop.sh
+
 ```
 
 The `03-user-input.sh` example requests interactive input. Review a script before running it, and use a suitable test environment when experimenting with changes.
@@ -509,11 +552,13 @@ The `03-user-input.sh` example requests interactive input. Review a script befor
 ## Running the Module 12 and 13 Reports
 
 From the repository root:
+
 ```bash
 
 bash modules/12-understanding-computer-hardware/code/hardware-report.sh
 
 bash modules/13-where-data-is-stored/code/system-information-report.sh
+
 ```
 
 The scripts collect diagnostic information without changing system configuration. Some commands or kernel messages may be unavailable depending on installed utilities and permissions. Review report output before sharing it publicly, as it can contain system-specific information.
@@ -524,7 +569,13 @@ The scripts collect diagnostic information without changing system configuration
 |---|---|---|
 | [Midterm Exam — Modules 1–9](exams/midterm-modules-01-09/README.md) | Modules 1–9; 40 questions | Completed |
 | [Assessment — Modules 10–18](exams/midterm-modules-10-18/README.md) | Modules 10–18; 40 questions | Completed |
-| Comprehensive Final Exam | Modules 1–18; 80 questions | Pending |
+| [Comprehensive Final Exam](exams/final-exam/README.md) | Modules 1–18; 50 questions; 80 possible points | Completed |
+
+### Comprehensive Final Exam — Modules 1–18
+
+Completed the 50-question comprehensive final exam, worth **80 possible points**, covering all 18 course modules. The review documents Linux fundamentals, licensing, shell commands, file operations, scripting, hardware, networking, account administration, permissions, and links.
+
+[Final Exam Review](exams/final-exam/README.md)
 
 ### Midterm Exam — Modules 1–9
 
@@ -572,19 +623,29 @@ Four hands-on challenges have been completed. Each lab includes English study no
 ### Lab Highlights
 
 - **Lab A:** Configured three departments with nine users, directory access controls, and confidential documents.
+
 - **Lab B:** Built a reusable interactive Bash script to provision arbitrary user and group names and reject duplicates.
-- **Lab C:** Archived `.log` files from `/var/log` into `~/archive/log.tar`, then extracted them to `~/backup`.
-- **Lab D:** Used `awk`, `sort -u`, redirection, and `&&` to generate `~/uniqueservices.txt`; the NetAcad environment produced **340 unique services**.
+
+- **Lab C:** Archived `.log` files from `/var/log` into `\~/archive/log.tar`, then extracted them to `\~/backup`.
+
+- **Lab D:** Used `awk`, `sort -u`, redirection, and `&&` to generate `\~/uniqueservices.txt`; the NetAcad environment produced **340 unique services**.
 
 ### Running the Lab Automations
 
 Review each script and its lab README before execution. User-management scripts modify system accounts and permissions and should only be run in an isolated lab environment.
+
 ```bash
-# From the repository root: inspect the scripts before running them.
+
+\# From the repository root: inspect the scripts before running them.
+
 bash -n labs/challenge-lab-a-user-management/setup.sh
+
 bash -n labs/challenge-lab-b-user-management-scripting/setup.sh
+
 bash -n labs/challenge-lab-c-archiving-and-backup/backup-logs.sh
+
 bash -n labs/challenge-lab-d-pipes-redirection-and-regex/extract-services.sh
+
 ```
 
 For exact arguments, prerequisites, and safeguards, consult the corresponding lab README. Do not run provisioning scripts on a production machine.
