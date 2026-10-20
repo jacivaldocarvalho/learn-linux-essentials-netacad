@@ -5,7 +5,9 @@
 ![Linux](https://img.shields.io/badge/Linux-Study%20Notes-FCC624?logo=linux&logoColor=black)
 ![Language](https://img.shields.io/badge/Language-English-blue)
 ![Modules](https://img.shields.io/badge/Modules-18%20Completed-success)
-![Midterm Exam](https://img.shields.io/badge/Midterm%20Exam-Completed-success)
+![Assessments](https://img.shields.io/badge/Assessments-2%20Completed-success)
+![Challenge Labs](https://img.shields.io/badge/Challenge%20Labs-4%20Completed-success)
+![Final Exam](https://img.shields.io/badge/Final%20Exam-Pending-orange)
 
 Study notes, exercises, commands, and practical examples from my learning journey through the **Linux Essentials** course offered by **Cisco Networking Academy (NetAcad)** and developed in collaboration with **Network Development Group (NDG)**.
 
@@ -16,93 +18,172 @@ This repository serves as a personal reference for Linux fundamentals and for re
 Linux Essentials introduces the Linux operating system and practical command-line skills. Topics include:
 
 - Linux fundamentals, operating systems, and distributions
+
 - Open source software and licensing
+
 - Command Line Interface (CLI) and shell fundamentals
+
 - Filesystem navigation and file management
+
 - Linux documentation and help utilities
+
 - Archiving and compression
+
 - Text processing, pipelines, and I/O redirection
+
 - Regular expressions and text filtering
+
 - Shell scripting, variables, conditionals, and loops
+
 - File permissions, users, groups, processes, networking, and security concepts
 
 The course also supports preparation for the **LPI Linux Essentials Certificate**.
 
 ## Repository Structure
-
 ```text
-learn-linux-essentials-netacad/
+jc-linux-essentials-netacad/
+
 ├── README.md
+
 ├── modules/
+
 │   ├── 01-introduction-to-linux/
+
 │   │   └── README.md
+
 │   ├── 02-operating-systems/
+
 │   │   └── README.md
+
 │   ├── 03-working-in-linux/
+
 │   │   └── README.md
+
 │   ├── 04-open-source-software-and-licensing/
+
 │   │   └── README.md
+
 │   ├── 05-command-line-skills/
+
 │   │   ├── README.md
+
 │   │   └── LAB.md
+
 │   ├── 06-getting-help/
+
 │   │   └── README.md
+
 │   ├── 07-navigating-the-filesystem/
+
 │   │   └── README.md
+
 │   ├── 08-managing-files-and-directories/
+
 │   │   └── README.md
+
 │   ├── 09-archiving-and-compression/
+
 │   │   └── README.md
+
 │   ├── 10-working-with-text/
+
 │   │   └── README.md
+
 │   ├── 11-basic-scripting/
+
 │   │   ├── README.md
+
 │   │   └── code/
+
 │   │       ├── 01-hello-world.sh
+
 │   │       ├── 02-variables.sh
+
 │   │       ├── 03-user-input.sh
+
 │   │       ├── 04-arguments.sh
+
 │   │       ├── 05-exit-status.sh
+
 │   │       ├── 06-conditionals.sh
+
 │   │       ├── 07-case.sh
+
 │   │       ├── 08-for-loops.sh
+
 │   │       └── 09-while-loop.sh
+
 │   ├── 12-understanding-computer-hardware/
+
 │   │   ├── README.md
+
 │   │   └── code/
+
 │   │       └── hardware-report.sh
+
 │   ├── 13-where-data-is-stored/
+
 │   │   ├── README.md
+
 │   │   └── code/
+
 │   │       └── system-information-report.sh
+
 │   ├── 14-network-configuration/
+
 │   │   └── README.md
+
 │   ├── 15-system-and-user-security/
+
 │   │   └── README.md
+
 │   ├── 16-creating-users-and-groups/
+
 │   │   └── README.md
+
 │   ├── 17-ownership-and-permissions/
+
 │   │   └── README.md
+
 │   └── 18-special-directories-and-files/
+
 │       └── README.md
-└── exams/
-    └── midterm-modules-01-09/
-        └── README.md
+
+├── exams/
+│   ├── midterm-modules-01-09/
+│   │   └── README.md
+│   └── midterm-modules-10-18/
+│       └── README.md
+└── labs/
+    ├── challenge-lab-a-user-management/
+    │   ├── README.md
+    │   └── setup.sh
+    ├── challenge-lab-b-user-management-scripting/
+    │   ├── README.md
+    │   └── setup.sh
+    ├── challenge-lab-c-archiving-and-backup/
+    │   ├── README.md
+    │   ├── backup-logs.sh
+    │   └── screenshots/
+    └── challenge-lab-d-pipes-redirection-and-regex/
+        ├── README.md
+        ├── extract-services.sh
+        └── screenshots/
 ```
 
 ### `modules/`
 
 Original study notes organized by course module. Each module documents important concepts, commands, examples, and exam-relevant details. Some modules include additional lab notes or executable examples.
 
-
 ## Course Progress
 
-**Current progress:** Modules **1–18 completed**, including the **Midterm Exam (Modules 1–9)**.
+**Current progress:** All **18 modules**, both **40-question assessments** (Modules 1–9 and Modules 10–18), and all **four challenge labs (A–D)** completed. The **80-question comprehensive final exam** is pending.
 
 | Milestone | Status |
 |---|---|
 | Modules 1–9 | Completed |
-| Midterm Exam (Modules 1–9) | Completed |
+| Midterm Exam (Modules 1–9; 40 questions) | Completed |
+| Assessment (Modules 10–18; 40 questions) | Completed |
 | Module 10 — Working With Text | Completed |
 | Module 11 — Basic Scripting | Completed |
 | Module 12 — Understanding Computer Hardware | Completed |
@@ -112,6 +193,11 @@ Original study notes organized by course module. Each module documents important
 | Module 16 — Creating Users and Groups | Completed |
 | Module 17 — Ownership and Permissions | Completed |
 | Module 18 — Special Directories and Files | Completed |
+| Challenge Lab A — User Management | Completed |
+| Challenge Lab B — User Management Scripting | Completed |
+| Challenge Lab C — Archiving and Backup | Completed |
+| Challenge Lab D — Pipes, Redirection and REGEX | Completed |
+| Comprehensive Final Exam (80 questions) | Pending |
 
 ## Modules
 
@@ -139,12 +225,19 @@ Original study notes organized by course module. Each module documents important
 ### Module 5 — Command Line Skills
 
 - Basic shell and Bash
+
 - Command syntax, options, and arguments
+
 - Command history
+
 - Shell and environment variables
+
 - `PATH`
+
 - Command types, aliases, and functions
+
 - Quoting, escaping, and command substitution
+
 - Control operators (`;`, `&&`, `||`)
 
 [Study Notes](modules/05-command-line-skills/README.md) · [Lab Notes](modules/05-command-line-skills/LAB.md)
@@ -152,11 +245,17 @@ Original study notes organized by course module. Each module documents important
 ### Module 6 — Getting Help
 
 - Linux documentation resources
+
 - Manual pages and manual sections
+
 - `man` and `info`
+
 - `whatis` and `apropos`
+
 - `--help` command options
+
 - `locate` and `whereis`
+
 - Documentation in `/usr/share/doc`
 
 [Study Notes](modules/06-getting-help/README.md)
@@ -164,11 +263,17 @@ Original study notes organized by course module. Each module documents important
 ### Module 7 — Navigating the Filesystem
 
 - Linux filesystem hierarchy
+
 - Absolute and relative paths
+
 - Current and parent directories
+
 - Home directory shortcuts
+
 - `pwd`, `cd`, and `ls`
+
 - Hidden files and directories
+
 - Directory listing options
 
 [Study Notes](modules/07-navigating-the-filesystem/README.md)
@@ -176,12 +281,19 @@ Original study notes organized by course module. Each module documents important
 ### Module 8 — Managing Files and Directories
 
 - Case-sensitive filenames
+
 - Filename globbing (`*`, `?`, `[ ]`)
+
 - Copying files and directories with `cp`
+
 - Moving and renaming files with `mv`
+
 - Creating files with `touch`
+
 - Removing files with `rm`
+
 - Creating directories with `mkdir`
+
 - Removing empty directories with `rmdir`
 
 [Study Notes](modules/08-managing-files-and-directories/README.md)
@@ -189,11 +301,17 @@ Original study notes organized by course module. Each module documents important
 ### Module 9 — Archiving and Compression
 
 - Archiving versus compression
+
 - Lossless and lossy compression
+
 - `gzip`, `bzip2`, and `xz`
+
 - TAR archive creation, listing, and extraction
+
 - gzip and bzip2 compression with `tar`
+
 - ZIP archive creation and extraction
+
 - Recursive archiving and selective extraction
 
 [Study Notes](modules/09-archiving-and-compression/README.md)
@@ -201,13 +319,21 @@ Original study notes organized by course module. Each module documents important
 ### Module 10 — Working With Text
 
 - Viewing file content with `cat`, `less`, `more`, `head`, and `tail`
+
 - Pipelines (`|`) and command chaining
+
 - Standard streams: STDIN, STDOUT, and STDERR
+
 - I/O redirection with `<`, `>`, `>>`, `2>`, and `&>`
+
 - Sorting text with `sort`, including fields and numeric keys
+
 - File statistics with `wc`
+
 - Extracting columns and character ranges with `cut`
+
 - Filtering text with `grep`
+
 - Basic and extended regular expressions, including `grep -E`
 
 **LPI objective:** 3.2 — Searching and Extracting Data from Files (weight: 3).
@@ -217,15 +343,25 @@ Original study notes organized by course module. Each module documents important
 ### Module 11 — Basic Scripting
 
 - Shell scripts, execution methods, and the shebang (`#!`)
+
 - Script permissions and `chmod +x`
+
 - Text editors: `nano`, `vi`, and `vim`
+
 - Variables, expansion, and command substitution
+
 - Reading input with `read` and passing positional arguments
+
 - Exit codes, `$?`, and `exit`
+
 - Conditionals using `if`, `elif`, `else`, `test`, and `case`
+
 - File tests and numeric/string comparisons
+
 - `for` and `while` loops
+
 - Arithmetic expansion with `$(( ... ))`
+
 - Separate executable Bash examples in `code/`
 
 **LPI objective:** 3.3 — Turning Commands into a Script (weight: 4).
@@ -235,11 +371,17 @@ Original study notes organized by course module. Each module documents important
 ### Module 12 — Understanding Computer Hardware
 
 - Motherboards, CPUs, processor architectures, and CPU cores
+
 - RAM, swap, and memory inspection with `free`, `arch`, and `lscpu`
+
 - PCI and USB devices with `lspci` and `lsusb`
+
 - Storage devices, partitions, MBR, and GPT
+
 - HDDs, SSDs, optical drives, and device naming
+
 - Kernel modules, drivers, video interfaces, and power supplies
+
 - Practical read-only hardware report in `code/hardware-report.sh`
 
 **LPI objective:** 4.2 — Computer Hardware (weight: 2).
@@ -249,11 +391,17 @@ Original study notes organized by course module. Each module documents important
 ### Module 13 — Where Data Is Stored
 
 - GNU/Linux kernel responsibilities and pseudo-filesystems (`/proc`, `/sys`)
+
 - Process hierarchy, PID, PPID, `ps`, `pstree`, and `top`
+
 - System load, virtual memory, RAM, swap, and `free`
+
 - Logging with syslog, rsyslog, journald, and `journalctl`
+
 - Kernel messages with `dmesg` and log rotation
+
 - Filesystem Hierarchy Standard (FHS), directories, programs, and configuration
+
 - Practical read-only system information report in `code/system-information-report.sh`
 
 **LPI objective:** 4.3 — Where Data Is Stored (weight: 3).
@@ -263,8 +411,11 @@ Original study notes organized by course module. Each module documents important
 ### Module 14 — Network Configuration
 
 - Internet, LANs, routers, network interfaces, and basic network topology
+
 - IPv4 and IPv6 addressing, subnet masks, gateways, and routing
+
 - DNS resolution and client configuration
+
 - Network inspection and connectivity diagnostics
 
 **LPI objective:** 4.4 — Your Computer on the Network (weight: 2).
@@ -274,8 +425,11 @@ Original study notes organized by course module. Each module documents important
 ### Module 15 — System and User Security
 
 - Root, standard, and system users
+
 - User identities, group membership, and account information
+
 - Account and group records and login activity
+
 - Basic system and account security
 
 **LPI objective:** 5.1 — Basic Security and Identifying User Types (weight: 2).
@@ -285,8 +439,11 @@ Original study notes organized by course module. Each module documents important
 ### Module 16 — Creating Users and Groups
 
 - Creating, modifying, and removing users with `useradd`, `usermod`, and `userdel`
+
 - Managing groups with `groupadd`, `groupmod`, and `groupdel`
+
 - UID, GID, group membership, and user configuration
+
 - Password and account management
 
 **LPI objective:** 5.2 — Creating Users and Groups (weight: 2).
@@ -296,9 +453,13 @@ Original study notes organized by course module. Each module documents important
 ### Module 17 — Ownership and Permissions
 
 - Inspecting identities with `id`, `groups`, and `newgrp`
+
 - File and group ownership with `chown` and `chgrp`
+
 - User, group, and others permission precedence
+
 - Symbolic and octal permissions with `chmod`
+
 - Directory permissions and `umask`
 
 **LPI objective:** 5.3 — Managing File Permissions and Ownership.
@@ -308,9 +469,13 @@ Original study notes organized by course module. Each module documents important
 ### Module 18 — Special Directories and Files
 
 - `setuid`, `setgid`, and sticky bit
+
 - Shared temporary directories `/tmp` and `/var/tmp`
+
 - Inodes, hard links, and symbolic links
+
 - Creating links with `ln` and `ln -s`
+
 - Inspecting directories and links with `ls -ld` and `ls -li`
 
 **LPI objective:** 5.4 — Special Directories and Files (weight: 1).
@@ -320,15 +485,22 @@ Original study notes organized by course module. Each module documents important
 ## Running the Module 11 Examples
 
 From the repository root:
-
 ```bash
+
 cd modules/11-basic-scripting
+
 bash code/01-hello-world.sh
+
 bash code/02-variables.sh
+
 bash code/04-arguments.sh World
+
 bash code/06-conditionals.sh hello
+
 bash code/07-case.sh hi
+
 bash code/08-for-loops.sh
+
 bash code/09-while-loop.sh
 ```
 
@@ -337,46 +509,96 @@ The `03-user-input.sh` example requests interactive input. Review a script befor
 ## Running the Module 12 and 13 Reports
 
 From the repository root:
-
 ```bash
+
 bash modules/12-understanding-computer-hardware/code/hardware-report.sh
+
 bash modules/13-where-data-is-stored/code/system-information-report.sh
 ```
 
 The scripts collect diagnostic information without changing system configuration. Some commands or kernel messages may be unavailable depending on installed utilities and permissions. Review report output before sharing it publicly, as it can contain system-specific information.
 
-
 ## Exams
 
 | Assessment | Coverage | Status |
 |---|---|---|
-| [Midterm Exam](exams/midterm-modules-01-09/README.md) | Modules 1–9 | Completed |
-
+| [Midterm Exam — Modules 1–9](exams/midterm-modules-01-09/README.md) | Modules 1–9; 40 questions | Completed |
+| [Assessment — Modules 10–18](exams/midterm-modules-10-18/README.md) | Modules 10–18; 40 questions | Completed |
+| Comprehensive Final Exam | Modules 1–18; 80 questions | Pending |
 
 ### Midterm Exam — Modules 1–9
 
 Review of 40 questions covering:
 
 - Linux distributions and operating systems
+
 - Software management and release cycles
+
 - Open source software and licensing
+
 - Shells, CLI, and environment variables
+
 - Linux documentation and help commands
+
 - Filesystem navigation
+
 - File and directory management
+
 - Globbing
+
 - Archiving and compression
 
 The exam review includes correct answers, technical explanations, command examples, and a final review checklist.
 
 [Midterm Exam Review](exams/midterm-modules-01-09/README.md)
 
+### Assessment — Modules 10–18
+
+Review of 40 questions covering text processing, scripting, hardware, processes, networking, user and group management, permissions, and special permission bits.
+
+[Modules 10–18 Exam Review](exams/midterm-modules-10-18/README.md)
+
+## Challenge Labs
+
+Four hands-on challenges have been completed. Each lab includes English study notes and an accompanying Bash automation; Labs C and D also include screenshots of the completed exercises.
+
+| Lab | Focus | Documentation | Automation | Status |
+|---|---|---|---|---|
+| A — User Management | Department groups, users, ownership, SGID, sticky bit, and confidential files | [Notes](labs/challenge-lab-a-user-management/README.md) | [setup.sh](labs/challenge-lab-a-user-management/setup.sh) | Completed |
+| B — User Management Scripting | Interactive account provisioning, duplicate detection, passwords, and permissions | [Notes](labs/challenge-lab-b-user-management-scripting/README.md) | [setup.sh](labs/challenge-lab-b-user-management-scripting/setup.sh) | Completed |
+| C — Archiving and Backup | Creating, listing, and extracting `.tar` archives of log files | [Notes](labs/challenge-lab-c-archiving-and-backup/README.md) | [backup-logs.sh](labs/challenge-lab-c-archiving-and-backup/backup-logs.sh) | Completed |
+| D — Pipes, Redirection and REGEX | Extracting, filtering, sorting, and counting unique service names | [Notes](labs/challenge-lab-d-pipes-redirection-and-regex/README.md) | [extract-services.sh](labs/challenge-lab-d-pipes-redirection-and-regex/extract-services.sh) | Completed |
+
+### Lab Highlights
+
+- **Lab A:** Configured three departments with nine users, directory access controls, and confidential documents.
+- **Lab B:** Built a reusable interactive Bash script to provision arbitrary user and group names and reject duplicates.
+- **Lab C:** Archived `.log` files from `/var/log` into `~/archive/log.tar`, then extracted them to `~/backup`.
+- **Lab D:** Used `awk`, `sort -u`, redirection, and `&&` to generate `~/uniqueservices.txt`; the NetAcad environment produced **340 unique services**.
+
+### Running the Lab Automations
+
+Review each script and its lab README before execution. User-management scripts modify system accounts and permissions and should only be run in an isolated lab environment.
+```bash
+# From the repository root: inspect the scripts before running them.
+bash -n labs/challenge-lab-a-user-management/setup.sh
+bash -n labs/challenge-lab-b-user-management-scripting/setup.sh
+bash -n labs/challenge-lab-c-archiving-and-backup/backup-logs.sh
+bash -n labs/challenge-lab-d-pipes-redirection-and-regex/extract-services.sh
+```
+
+For exact arguments, prerequisites, and safeguards, consult the corresponding lab README. Do not run provisioning scripts on a production machine.
+
 ## References
 
 - [Cisco Networking Academy](https://www.netacad.com/)
+
 - [Linux Professional Institute — Linux Essentials](https://www.lpi.org/our-certifications/linux-essentials-overview/)
+
 - [Network Development Group (NDG)](https://www.netdevgroup.com/)
+
 - [The Linux Kernel Archives](https://www.kernel.org/)
+
 - [GNU Project](https://www.gnu.org/)
 
 ## Disclaimer
